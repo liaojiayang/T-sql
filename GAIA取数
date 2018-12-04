@@ -1,0 +1,10 @@
+# 数据来源GAIA
+# 
+
+select
+ formart(house_resblock_id) as lp_id #楼盘ID
+ ,house_resblock_name
+ ,sbustr(sign_time,1,7) as cj_shijian # 时间
+ ,count(agreement_id) as cj_liang # 成交量
+ ,count(agreement_amt) as cj_jine # 
+ ,count(house_floor_area) as cj_mianji
