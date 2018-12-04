@@ -20,9 +20,9 @@
 	  from
 	  dw.dw_allinfo_agr_agreement_da
 	  where
-	  pt = '20181031000000'
+	  pt = '20181130000000'
 	  and
-	  substr(sign_time,1,7) = '2018-10'
+	  substr(sign_time,1,7) = '2018-11'
 	  /*and
 	  city_code = 310000*/
 	  and 
@@ -38,7 +38,7 @@
 	  from
 	  dw.dw_allinfo_housedel_da
 	  where
-	  pt = '20181031000000'
+	  pt = '20181130000000'
 	  /*and
 	  city_code = 310000 */
 	  and
