@@ -7,7 +7,7 @@ count(distinct id)
 from
 dw.dw_evt_showing_detail_all_info_da
 where
-pt='20181209000000' --要改
+pt='20181202000000' --要改
 and holder_corp_code in ('B00001','WXLJ8888','N00001','ZZLJ8888','SH8888','E00001','A10001','LSY8888',
 	'XALJ8888','HF888888','SJZLJ8888','ZS8888','SUZ8888','WH9999','H10001','CQ9999','CS9999') --代理11城
 and to_date(create_time) >= date_sub(CURRENT_DATE,7) --要改
